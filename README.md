@@ -6,14 +6,16 @@ A Brain Tumour is a collection of abnormal tissues found in the brain, spinal co
 - Python 3.7+
 
 ## File Description
+The dataset was downloaded from [Here]('https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?select')
+
 This dataset contains 7023 images of human brain MRI images which are classified into 4 classes
---glioma
---meningioma
---no tumor
---pituitary
+- Glioma
+- Meningioma
+- No tumor
+- Pituitary
 
 ## Import Packages
-'''ruby
+```ruby
 import os,glob,sys
 import cv2
 import numpy as np
@@ -30,4 +32,6 @@ from tqdm import tqdm
 import pandas as pd
 from keras.utils import to_categorical
 from keras.applications.resnet import ResNet50
-'''
+```
+
+## Analysis
